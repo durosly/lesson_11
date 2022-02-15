@@ -1,0 +1,64 @@
+img {
+    float: right;
+}
+
+.container {
+    background-color: black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.box-1 {
+    background-color: red;
+    float: left;
+}
+
+.box-2 {
+    background-color: green;
+}
+
+.box-3 {
+    background-color: blue;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: black;
+}
+
+.item {
+    padding: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    /* margin: 10px; */
+}
+
+.item-1 {
+    background-color: red;
+}
+
+.item-2 {
+    background-color: green;
+}
+
+.item-3 {
+    background-color: blue;
+}
